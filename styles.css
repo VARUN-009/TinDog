@@ -1,0 +1,178 @@
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 80px;
+  position: relative;
+  margin-bottom: -40rem;
+  right: 1%;
+  /* top: 200px; */
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.perks {
+  display: inline-block;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.reviews {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  /* padding was 100px. done 80 so that href can work smoothly as sign up was cutting */
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#title {
+  padding: -50px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+.bottom {
+  color: #ffffff;
+  padding: 5%;
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: "Montserrat"sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.truelove {
+  font-family: "Montserrat"sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.15rem;
+  width: 70%;
+  margin-left: 210px;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.links {
+  margin: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* smooth scrolling probably */
